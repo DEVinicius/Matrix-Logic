@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=62ea08e8_002D9748_002D4eec_002D83e5_002De06964c5f89e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;And&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;xUnit::AEEA4FC4-C895-4B49-A86A-461D3D090829::net6.0::Matrix.UnitTest.Sections.TraversalMatrix.Implementation.RowWiseMatrixTest.OnSuccess_ReturnCorrectFixture&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;Project Location="/Users/vinicius.oliveira/projetos/aprender/data-structures/Matrix/Matrix.UnitTest" Presentation="&amp;lt;Matrix.UnitTest&amp;gt;" /&gt;
+    &lt;Namespace&gt;Matrix.UnitTest.Sections.TraversalMatrix.Implementation&lt;/Namespace&gt;
+  &lt;/And&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a3b4a5c9_002Dfac7_002D4956_002Dab06_002D13c98387f3ee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;And&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;xUnit::AEEA4FC4-C895-4B49-A86A-461D3D090829::net6.0::Matrix.UnitTest.Sections.TraversalMatrix.Implementation.RowWiseMatrixTest.OnSuccess_ReturnCorrectFixture&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;Project Location="/Users/vinicius.oliveira/projetos/aprender/data-structures/Matrix/Matrix.UnitTest" Presentation="&amp;lt;Matrix.UnitTest&amp;gt;" /&gt;
+    &lt;Namespace&gt;Matrix.UnitTest.Sections.TraversalMatrix.Implementation&lt;/Namespace&gt;
+  &lt;/And&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
