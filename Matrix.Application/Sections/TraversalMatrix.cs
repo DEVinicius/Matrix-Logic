@@ -41,6 +41,27 @@ public class TraversalMatrix<T>
         return data;
     }
 
+    public T[] GetSpiral()
+    {
+        IsSquareMatrix();
+        var MatrixLineLength = Matrix.GetLength(0);
+        
+        var column = MatrixLineLength;
+        var row = MatrixLineLength;
+
+        var condition = MatrixLineLength % 2 == 0
+            ? ((row == (MatrixLineLength / 2)) && (column == ((MatrixLineLength / 2) - 1))) : ((row == (MatrixLineLength / 2)) && (column == ((MatrixLineLength / 2))));
+
+        do
+        {
+            column = column - 1;
+        } while (
+            MatrixLineLength % 2 == 0 
+                ? ((row == MatrixLineLength / 2) && (column == ((MatrixLineLength / 2) - 1))) 
+                : ((row == (MatrixLineLength / 2)) && (column == ((MatrixLineLength / 2))))    
+        );
+    }
+
     private void IsSquareMatrix()
     {
         if (Matrix.GetLength(0) != Matrix.GetLength(1))
