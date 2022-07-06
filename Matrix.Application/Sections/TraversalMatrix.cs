@@ -18,7 +18,23 @@ public class TraversalMatrix<T>
         {
             for (int column = 0; column < Matrix.GetLength(0); column++)
             {
-                data[3 * row + column] = Matrix[row,column];
+                data[(3 * row) + column] = Matrix[row,column];
+            }
+        }
+    
+        return data;
+    }
+
+    public T[] GetColumnWise()
+    {
+        IsSquareMatrix();
+        T[] data = new T[Matrix.GetLength(0) * Matrix.GetLength(1)];
+
+        for (int row = 0; row < Matrix.GetLength(0); row++)
+        {
+            for (int column = 0; column < Matrix.GetLength(0); column++)
+            {
+                data[row + (3 * column)] = Matrix[row,column];
             }
         }
     
